@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Operator';
+    src: url('/OM-m.otf');
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: 'Operator';
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px;
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+}
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.search {
+    outline: none;
+    border: 7px solid #9a91db;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Operator';
+    font-size: 30px;
+    background: #dbd7f4;
+    color: #9a91db;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.03);
+}
+
+input::placeholder {
+    color: #9a91db;
+}
+
+.user-search {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.user-search li {
+    border: 8px solid #f17474;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: #fe9191;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.04);
+    margin-left: 20px;
+}
+
+
+.hl {
+    background: black;
+    border-radius: 4px;
+}
